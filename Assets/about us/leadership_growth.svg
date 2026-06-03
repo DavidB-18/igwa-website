@@ -1,0 +1,11 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Leadership Growth Icon">
+  <circle cx="24" cy="24" r="22" fill="#FFF8EE" stroke="#D4AF37" stroke-width="2"/>
+  <path d="M14 35V28" stroke="#5B2C87" stroke-width="3" stroke-linecap="round"/>
+  <path d="M24 35V22" stroke="#5B2C87" stroke-width="3" stroke-linecap="round"/>
+  <path d="M34 35V16" stroke="#5B2C87" stroke-width="3" stroke-linecap="round"/>
+  <path d="M11 35H37" stroke="#5B2C87" stroke-width="3" stroke-linecap="round"/>
+  <path d="M14 25L22 19L28 21L35 12" stroke="#D4AF37" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M31 12H35V16" stroke="#D4AF37" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="24" cy="17" r="3.2" fill="#5B2C87"/>
+  <path d="M18.5 27C19.8 24.4 22 23 24 23C26 23 28.2 24.4 29.5 27" stroke="#5B2C87" stroke-width="2.5" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+  <title>Entrepreneurship and Income Creation</title>
+  <g stroke="#D4AF37" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M12 48h40"/>
+    <rect x="16" y="34" width="7" height="14" rx="1.5"/>
+    <rect x="28" y="28" width="7" height="20" rx="1.5"/>
+    <rect x="40" y="22" width="7" height="26" rx="1.5"/>
+    <path d="M17 20l10-6 9 6 13-8"/>
+    <path d="M43 12h6v6"/>
+  </g>
+  <circle cx="27" cy="14" r="3" fill="#D4AF37"/>
+</svg>

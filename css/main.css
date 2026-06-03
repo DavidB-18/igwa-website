@@ -1,0 +1,15 @@
+@import './reset.css';
+@import './variables.css';
+@import './sections/navbar.css';
+@import './sections/hero.css';
+@import './sections/about.css';
+@import './sections/mission.css';
+@import './sections/leaders.css';
+@import './sections/programs.css';
+@import './sections/courses.css';
+@import './sections/impact.css';
+@import './sections/cta.css';
+@import './sections/footer.css';
+body {
+  font-family: var(--font-body);
+}

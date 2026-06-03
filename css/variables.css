@@ -1,0 +1,43 @@
+:root {
+  /* Colors */
+  --color-primary:     #6B46C1;   /* main purple */
+  --color-primary-dark:#5433A8;   /* darker purple for hover */
+  --color-accent:      #D4A017;   /* gold accent */
+  --color-white:       #FFFFFF;
+  --color-light-bg:    #F9F6FF;   /* light lavender section bg */
+  --color-dark-bg:     #1A1A2E;   /* footer dark bg */
+  --color-text:        #1A1A1A;   /* main body text */
+  --color-text-muted:  #666666;   /* secondary text */
+  --color-border:      #E2D9F3;   /* card borders */
+
+  /* Typography */
+  --font-heading: 'Poppins', sans-serif;
+  --font-body:    'Poppins', sans-serif;
+
+  /* Font sizes */
+  --text-sm:   0.875rem;   /* 14px */
+  --text-base: 1rem;       /* 16px */
+  --text-lg:   1.125rem;   /* 18px */
+  --text-xl:   1.25rem;    /* 20px */
+  --text-2xl:  1.5rem;     /* 24px */
+  --text-3xl:  1.875rem;   /* 30px */
+  --text-4xl:  2.25rem;    /* 36px */
+  --text-5xl:  3rem;       /* 48px */
+
+  /* Spacing */
+  --space-xs:  0.5rem;     /* 8px */
+  --space-sm:  1rem;       /* 16px */
+  --space-md:  1.5rem;     /* 24px */
+  --space-lg:  2rem;       /* 32px */
+  --space-xl:  3rem;       /* 48px */
+  --space-2xl: 5rem;       /* 80px */
+
+  /* Border radius */
+  --radius-sm:  6px;
+  --radius-md:  12px;
+  --radius-lg:  20px;
+  --radius-full: 999px;   /* pill shape for buttons */
+
+  /* Shadows */
+  --shadow-card: 0 2px 16px rgba(107, 70, 193, 0.08);
+}
