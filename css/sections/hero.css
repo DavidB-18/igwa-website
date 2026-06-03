@@ -80,23 +80,27 @@
 
 /* Right side */
 .hero-image {
-  flex: 1;
-  position: relative;
   display: flex;
+  position: relative;
   justify-content: center;
   align-items: center;
+  width: fit-content;
+  padding: 20px;
   background-color: var(--color-white);
-  height: 520px;
-  width: 480px;
   border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-card);
 }
 
 .hero-image img {
-  width: 80%;
-  max-width: 520px;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
   border-radius: var(--radius-lg);
   object-fit: cover;
+  display: block;
 }
+
+
 
 /* Decorative gold dot */
 .hero-gold-dot {
@@ -108,7 +112,20 @@
   background-color: var(--color-accent);
   border-radius: 50%;
   opacity: 0.6;
-  z-index: -1;
+  z-index: 1;
+}
+
+/* Decorative purple dot */
+.hero-purple-dot {
+  position: absolute;
+  bottom: 520px;
+  left: 20px;
+  width: 70px;
+  height: 70px;
+  background-color: var(--color-primary);
+  border-radius: 50%;
+  opacity: 0.5;
+  z-index: 1;
 }
 
 /* Mobile */
@@ -147,6 +164,10 @@
 
   .hero-gold-dot {
     display: none;
+  }
+  .hero-purple-dot{
+    width: 50px;
+    height: 50px;
   }
 
 }
