@@ -1,4 +1,143 @@
-/* Mission section styles placeholder */
-.mission {
-  padding: 3rem 0;
+#mission {
+  padding: var(--space-2xl) 0;
+  background-color: var(--color-light-bg);
+}
+
+.mission-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 var(--space-lg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-xl);
+}
+
+/* Top header */
+.mission-header {
+  text-align: center;
+  max-width: 640px;
+}
+
+.mission-title {
+  font-size: var(--text-3xl);
+  font-weight: 800;
+  color: var(--color-text);
+  line-height: 1.2;
+  margin-bottom: var(--space-sm);
+}
+
+.mission-subtext {
+  font-size: var(--text-base);
+  color: var(--color-text-muted);
+  line-height: 1.8;
+}
+
+/* Cards row */
+.mission-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-lg);
+  width: 100%;
+}
+
+/* Base card styles */
+.mission-card {
+  border-radius: var(--radius-lg);
+  padding: var(--space-xl);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+  transition: transform 0.3s ease;
+}
+
+.mission-card:hover {
+  transform: translateY(-4px);
+}
+
+.mission-card h3 {
+  font-size: var(--text-xl);
+  font-weight: 700;
+}
+
+.mission-card p {
+  font-size: var(--text-base);
+  line-height: 1.8;
+}
+
+/* White card */
+.mission-card--light {
+  background-color: var(--color-white);
+  border: 1px solid var(--color-border);
+  box-shadow: var(--shadow-card);
+}
+
+.mission-card--light h3 {
+  color: var(--color-text);
+}
+
+.mission-card--light p {
+  color: var(--color-text-muted);
+}
+
+/* Purple card */
+.mission-card--dark {
+  background-color: var(--color-primary);
+  border: none;
+}
+
+.mission-card--dark h3 {
+  color: var(--color-white);
+}
+
+.mission-card--dark p {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+/* Icon and title on same row */
+.mission-card-top {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  margin-bottom: var(--space-sm);
+}
+
+/* Icon circle background */
+.mission-card-icon {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0; /* stops icon from squishing */
+}
+
+.mission-card-icon img {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+}
+
+/* Light card icon — light purple circle background */
+.mission-card--light .mission-card-icon {
+  background-color: rgba(107, 70, 193, 0.1);
+}
+
+/* Dark card icon — gold circle background */
+.mission-card--dark .mission-card-icon {
+  background-color: var(--color-accent);
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+
+  .mission-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .mission-title {
+    font-size: var(--text-2xl);
+  }
+
 }
