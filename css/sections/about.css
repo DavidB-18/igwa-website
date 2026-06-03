@@ -1,4 +1,119 @@
-/* About section styles placeholder */
-.about {
-  padding: 3rem 0;
+#about {
+  padding: var(--space-2xl) 0;
+  background-color: var(--color-white);
+}
+
+.about-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 var(--space-lg);
+  display: flex;
+  align-items: center;
+  gap: var(--space-2xl);
+}
+
+/* Reusable section label — we will use this across all sections */
+.section-label {
+  display: inline-block;
+  font-size: var(--text-sm);
+  font-weight: 600;
+  color: var(--color-accent);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: var(--space-sm);
+}
+
+/* Left side */
+.about-content {
+  flex: 1;
+  max-width: 480px;
+}
+
+.about-title {
+  font-size: var(--text-3xl);
+  font-weight: 800;
+  line-height: 1.2;
+  color: var(--color-text);
+  margin-bottom: var(--space-md);
+}
+
+.about-text {
+  font-size: var(--text-base);
+  color: var(--color-text-muted);
+  line-height: 1.8;
+}
+
+/* Right side: 2x2 grid of cards */
+.about-cards {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-md);
+}
+
+.about-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+  background-color: var(--color-light-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: var(--space-sm);
+  box-shadow: var(--shadow-card) var(--color-primary-dark);
+  transition: transform 0.3s ease;
+}
+
+.about-card:hover {
+  transform: translateY(-4px);
+}
+
+.about-card-icon {
+  font-size: 1.8rem;
+  margin-bottom: var(--space-xs);
+}
+.about-card-icon img {
+  display: block;
+  width: 80px;           /* Set explicit width for icon */
+  height: 41.25px;
+  object-fit: contain;
+}
+
+.about-card-content h3 {
+  font-size: var(--text-base);
+  font-weight: 700;
+  color: var(--color-primary);
+  margin-bottom: var(--space-xs);
+}
+
+.about-card p {
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+  line-height: 1.6;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+
+  .about-container {
+    flex-direction: column;
+  }
+
+  .about-content {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .about-cards {
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+  }
+
+}
+
+@media (max-width: 480px) {
+
+  .about-cards {
+    grid-template-columns: 1fr;
+  }
+
 }
