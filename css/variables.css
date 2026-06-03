@@ -1,8 +1,8 @@
 :root {
   /* Colors */
-  --color-primary:     #6B46C1;   /* main purple */
-  --color-primary-dark:#5433A8;   /* darker purple for hover */
-  --color-accent:      #D4A017;   /* gold accent */
+  --color-primary:     #5B2C87;   /* main purple */
+  --color-primary-dark:#6B46C1;   /* darker purple for hover */
+  --color-accent:      #D4AF37;   /* gold accent */
   --color-white:       #FFFFFF;
   --color-light-bg:    #F9F6FF;   /* light lavender section bg */
   --color-dark-bg:     #1A1A2E;   /* footer dark bg */

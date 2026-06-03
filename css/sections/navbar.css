@@ -1,5 +1,138 @@
-/* Navbar styles placeholder */
-.navbar {
+#navbar {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: var(--color-white);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  z-index: 1000;
+}
+
+.nav-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 var(--space-lg);
+  height: 70px;
   display: flex;
+  align-items: center;
   justify-content: space-between;
+}
+
+/* Logo */
+.nav-logo {
+  display: flex;
+  align-items: center;
+  gap: var(--space-xs);
+  font-size: var(--text-xl);
+  font-weight: 700;
+  color: var(--color-primary);
+}
+
+.nav-logo img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+/* Nav links */
+.nav-links {
+  display: flex;
+  align-items: center;
+  margin-left: 28rem;
+  gap: var(--space-lg);
+}
+
+.nav-links a {
+  font-size: var(--text-base);
+  color: var(--color-text);
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: var(--color-primary-dark);
+}
+
+/* CTA button */
+.btn-primary {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  padding: 0.6rem 1.4rem;
+  border-radius: var(--radius-md);
+  font-size: var(--text-base);
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: var(--color-primary-dark);
+}
+
+/* Hamburger button */
+.nav-hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  padding: 4px;
+}
+
+.nav-hamburger span {
+  display: block;
+  width: 24px;
+  height: 2px;
+  background-color: var(--color-text);
+  border-radius: 2px;
+  transition: all 0.3s ease;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+
+  .nav-hamburger {
+    display: flex;
+  }
+
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 25%;
+    background-color: var(--color-white);
+    flex-direction: column;
+    align-items: center;
+    padding: var(--space-sm) 0;
+    gap: var(--space-xs);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.08);
+    
+    z-index: 999;
+    list-style: none;
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+
+  
+  .nav-links li {
+    width: 100%;
+    text-align: center;
+  }
+
+  .nav-links li a {
+    display: block;
+    padding: var(--space-sm) 0;
+    font-size: var(--text-lg);
+    color: var(--color-text);
+    font-weight: 500;
+  }
+
+  .nav-links li a:hover {
+    color: var(--color-primary);
+  }
+
+  .btn-primary {
+    display: none;
+  }
+
 }
