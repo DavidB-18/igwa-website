@@ -12,3 +12,16 @@ navLinks.querySelectorAll('a').forEach(link => {
     navLinks.classList.remove('open');
   });
 });
+
+//Read full bio button 
+function toggleBio(button) {
+  const bio = button.previousElementSibling;
+
+  bio.classList.toggle('expanded');
+
+  if (bio.classList.contains('expanded')) {
+    button.textContent = 'See Less';
+  } else {
+    button.textContent = 'Read Full Bio';
+  }
+}
