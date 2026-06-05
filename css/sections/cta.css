@@ -1,4 +1,79 @@
-/* CTA section styles placeholder */
-.cta {
-  padding: 3rem 0;
+#cta {
+  padding: var(--space-2xl) 0;
+  background-color: var(--color-white);
+}
+
+.cta-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 var(--space-lg);
+}
+
+/* Purple rounded banner */
+.cta-banner {  
+  background-color: var(--color-primary);
+  border-radius: var(--radius-lg);
+  padding: var(--space-2xl) var(--space-lg);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  text-align: center;
+  gap: var(--space-md);
+  
+}
+
+/* Title */
+.cta-title {
+  font-size: var(--text-3xl);
+  font-weight: 800;
+  color: var(--color-white);
+  line-height: 1.2;
+  max-width: 560px;
+}
+
+/* Subtext */
+.cta-subtext {
+  font-size: var(--text-base);
+  color: rgba(255, 255, 255, 0.85);
+  line-height: 1.8;
+  max-width: 800px;
+}
+
+/* Gold button */
+.btn-gold {
+  display: inline-block;
+  background-color: var(--color-accent);
+  color: var(--color-text);
+  position: absolute;
+  top: 17rem;
+  padding: 0.8rem 1rem;
+  border-radius: var(--radius-md);
+  font-size: var(--text-base);
+  font-weight: 700;
+  margin-top: var(--space-lg);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-gold:hover {
+  background-color: #f2bf3d; /* slightly darker gold on hover */
+  transform: translateY(-2px);
+  color: var(--color-white);
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+
+  .cta-title {
+    font-size: var(--text-2xl);
+  }
+
+  .cta-subtext {
+    font-size: var(--text-sm);
+  }
+
+  .cta-banner {
+    padding: var(--space-xl) var(--space-md);
+  }
+
 }

@@ -129,8 +129,11 @@
 }
 
 .bio-toggle:hover {
-  background-color: var(--color-primary-dark);
+   box-shadow: 0 12px 32px rgba(107, 70, 193, 0.18);
+   transform: translateY(-3px);
+  background-color:#3C1A5B; /* dark purple from figma */
 }
+
 
 /* Mobile */
 @media (max-width: 768px) {

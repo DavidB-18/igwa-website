@@ -64,6 +64,7 @@
 }
 
 .about-card:hover {
+  box-shadow: 0 12px 32px rgba(107, 70, 193, 0.18);
   transform: translateY(-4px);
 }
 

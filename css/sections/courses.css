@@ -1,4 +1,114 @@
-/* Courses section styles placeholder */
-.courses {
-  padding: 3rem 0;
+#courses {
+  padding: var(--space-2xl) 0;
+  background-color: var(--color-white);
+}
+
+.courses-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 var(--space-lg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-xl);
+}
+
+/* Header */
+.courses-header {
+  text-align: center;
+  max-width: 680px;
+}
+
+.courses-title {
+  font-size: var(--text-3xl);
+  font-weight: 800;
+  color: var(--color-text);
+  line-height: 1.2;
+  margin-bottom: var(--space-sm);
+}
+
+.courses-subtext {
+  font-size: var(--text-base);
+  color: var(--color-text-muted);
+  line-height: 1.8;
+}
+
+/* 4 cards in a row */
+.courses-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--space-md);
+  width: 100%;
+}
+
+/* Individual card */
+.course-card {
+  background-color: var(--color-light-bg);
+  border-radius: var(--radius-lg);
+  padding: var(--space-lg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: var(--space-sm);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 2px 8px rgba(107, 70, 193, 0.06);
+}
+
+.course-card:hover {
+  box-shadow: 0 12px 32px rgba(107, 70, 193, 0.18);
+  transform: translateY(-4px);
+}
+
+/* Icon — purple rounded square with white icon */
+.course-icon {
+  width: 56px;
+  height: 56px;
+  background-color: var(--color-primary);
+  border-radius: var(--radius-sm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: var(--space-xs);
+}
+
+.course-icon img {
+  width: 38px;
+  height: 38px;
+  object-fit: contain;
+  /* makes icon white on purple background */
+  filter: brightness(0) invert(1);
+}
+
+/* Card title */
+.course-card h3 {
+  font-size: var(--text-base);
+  font-weight: 700;
+  color: var(--color-text);
+  line-height: 1.3;
+}
+
+/* Card description */
+.course-card p {
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+  line-height: 1.7;
+}
+
+/* Tablet — 2 columns */
+@media (max-width: 900px) {
+  .courses-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Mobile — 1 column */
+@media (max-width: 480px) {
+  .courses-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .courses-title {
+    font-size: var(--text-2xl);
+  }
 }
