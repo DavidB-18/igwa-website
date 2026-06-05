@@ -40,6 +40,18 @@
   max-width: 800px;
 }
 
+/* Gold button Bounce animation */
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1); /* Speeds up falling down */
+  }
+  50% {
+    transform: translateY(-20px); /* Adjust this value to change bounce height */
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1); /* Slows down at the peak */
+  }
+}
+
 /* Gold button */
 .btn-gold {
   display: inline-block;
@@ -53,6 +65,7 @@
   font-weight: 700;
   margin-top: var(--space-lg);
   transition: background-color 0.3s ease, transform 0.2s ease;
+  animation: bounce 2s infinite;
 }
 
 .btn-gold:hover {
