@@ -25,3 +25,9 @@ function toggleBio(button) {
     button.textContent = 'Read Full Bio';
   }
 }
+// AOS initialisation 
+AOS.init({
+  duration: 700,    // how long each animation takes in ms
+  once: true,       // animation only happens once not every scroll
+  offset: 20        // how many px from bottom of screen before it triggers
+});

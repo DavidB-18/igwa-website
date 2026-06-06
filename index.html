@@ -10,8 +10,10 @@
    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
    <!-- One single CSS link — main.css pulls in everything else -->
    <link rel="stylesheet" href="css/main.css" />
+   <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
    <!-- Standard Favicon link -->
   <link rel="icon" type="image/svg+xml" href="Assets/logo.svg">
+  <!--AOS CDN link-->
   </head>
 
   <body>
@@ -98,12 +100,12 @@
 
     <!-- Left side: text content -->
     <div class="about-content">
-      <span class="section-label">About IWGA</span>
-      <h2 class="about-title">
+      <span class="section-label" data-aos="fade-right" data-aos-delay="100">About IWGA</span>
+      <h2 class="about-title"  data-aos="fade-right" data-aos-delay="200">
         A Global Academy for Women's Growth,<br> 
         Wealth and Leadership
       </h2>
-      <p class="about-text">
+      <p class="about-text"  data-aos="fade-right" data-aos-delay="300">
         International Women's Global Academy is designed to help 
         women overcome limiting beliefs, develop income generating 
         skills, build financial confidence, and become influential 
@@ -114,7 +116,7 @@
     <!-- Right side: 4 feature cards -->
     <div class="about-cards">
 
-      <div class="about-card">
+      <div class="about-card"  data-aos="fade-up" data-aos-delay="100">
         <div class="about-card-icon">
            <img src="assets/about us/mindset_shift.svg" alt="mindset icon" />
         </div>
@@ -125,7 +127,7 @@
         
       </div>
 
-      <div class="about-card">
+      <div class="about-card" data-aos="fade-up" data-aos-delay="100">
         <div class="about-card-icon">
            <img src="assets/about us/wealth_education.svg" alt="wealth icon" />
         </div>
@@ -136,7 +138,7 @@
         
       </div>
 
-      <div class="about-card">
+      <div class="about-card" data-aos="fade-up" data-aos-delay="250">
         <div class="about-card-icon">
            <img src="assets/about us/leadership_growth.svg" alt="lead_growth icon" />
         </div>
@@ -147,7 +149,7 @@
         
       </div>
 
-      <div class="about-card">
+      <div class="about-card" data-aos="fade-up" data-aos-delay="250">
         <div class="about-card-icon">
            <img src="assets/about us/global_community.svg" alt="global_Community icon" />
         </div>
@@ -169,8 +171,8 @@
 
     <!-- Top centered text -->
     <div class="mission-header">
-      <span class="section-label">Our Purpose</span>
-      <h2 class="mission-title">
+      <span class="section-label" data-aos="fade-right" data-aos-delay="100">Our Purpose</span>
+      <h2 class="mission-title" data-aos="fade-left" data-aos-delay="150">
         Driven by Vision,<br> Guided by Mission
       </h2>
       <p class="mission-subtext">
@@ -184,7 +186,7 @@
     <div class="mission-cards">
 
      <!-- Mission card (white) -->
-<div class="mission-card mission-card--light">
+<div class="mission-card mission-card--light" data-aos="zoom-in" data-aos-delay="50">
   <div class="mission-card-top">
     <div class="mission-card-icon">
       <img src="assets/mission and vision/target_icon_no_arrow_5B2C87.svg" alt="Mission icon" />
@@ -200,7 +202,7 @@
 </div>
 
 <!-- Vision card (purple) -->
-<div class="mission-card mission-card--dark">
+<div class="mission-card mission-card--dark" data-aos="zoom-out" data-aos-delay="200">
   <div class="mission-card-top">
     <div class="mission-card-icon">
       <img src="assets/mission and vision/eye_icon_3C1A5B.svg" alt="Vision icon" />
@@ -324,7 +326,7 @@
     <!-- 3x2 grid of cards -->
     <div class="pillars-cards">
 
-      <div class="pillar-card">
+      <div class="pillar-card" data-aos="zoom-out" data-aos-delay="50">
         <div class="pillar-icon">
           <img src="assets/core pillars/iwga_svg_set_gold/mindset_transformation.svg" alt="Mindset icon" />
         </div>
@@ -332,7 +334,7 @@
         <p>Helping women overcome fear, doubt and limiting beliefs.</p>
       </div>
 
-      <div class="pillar-card">
+      <div class="pillar-card" data-aos="zoom-out" data-aos-delay="100">
         <div class="pillar-icon">
           <img src="assets/core pillars/iwga_svg_set_gold/entrepreneurship_income_creation.svg" alt="Entrepreneurship icon" />
         </div>
@@ -340,7 +342,7 @@
         <p>Teaching women how to identify opportunities and build income streams.</p>
       </div>
 
-      <div class="pillar-card">
+      <div class="pillar-card" data-aos="zoom-out" data-aos-delay="200">
         <div class="pillar-icon">
           <img src="assets/core pillars/iwga_svg_set_gold/financial_literacy.svg" alt="Financial Literacy icon" />
         </div>
@@ -348,7 +350,7 @@
         <p>Equipping women to manage, multiply and protect money wisely.</p>
       </div>
 
-      <div class="pillar-card">
+      <div class="pillar-card" data-aos="zoom-out" data-aos-delay="300">
         <div class="pillar-icon">
           <img src="assets/core pillars/iwga_svg_set_gold/real_estate_ownership.svg" alt="Real Estate icon" />
         </div>
@@ -356,7 +358,7 @@
         <p>Guiding women toward property investment and legacy wealth.</p>
       </div>
 
-      <div class="pillar-card">
+      <div class="pillar-card" data-aos="zoom-out" data-aos-delay="400">
         <div class="pillar-icon">
           <img src="assets/core pillars/iwga_svg_set_gold/leadership_influence.svg" alt="Leadership icon" />
         </div>
@@ -364,7 +366,7 @@
         <p>Raising confident women who lead in families, business and community.</p>
       </div>
 
-      <div class="pillar-card">
+      <div class="pillar-card" data-aos="zoom-out" data-aos-delay="500">
         <div class="pillar-icon">
           <img src="assets/core pillars/iwga_svg_set_gold/legacy_generational_wealth.svg" alt="Legacy icon" />
         </div>
@@ -479,7 +481,7 @@
     <!-- CTA BANNER -->
 <section id="cta">  <!-- Open -->
   <div class="cta-container">
-    <div class="cta-banner">
+    <div class="cta-banner" data-aos="fade-in" data-aos-delay="300">
 
       <h2 class="cta-title">
         Ready to Become an Unstoppable Woman?
@@ -561,6 +563,7 @@
 </footer>  <!-- Close -->
 
     <!-- JS files at the bottom -->
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> <!--AOS javascript CDN link-->
     <script src="js/navbar.js"></script>
     <script src="js/main.js"></script>
 
