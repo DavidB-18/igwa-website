@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml"
+  xsi:schemaLocation="
+    http://www.sitemaps.org/schemas/sitemap/0.9
+    http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd
+    http://www.google.com/schemas/sitemap-image/1.1
+    http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd">
+
+  <!--
+  ============================================================
+    IWGA — International Women's Global Academy
+    Sitemap Version: 1.0
+    Last Updated: 2026-06-07
+    Maintained by: IWGA Web Team
+    Contact: globalacademyteam@gmail.com
+  ============================================================
+  -->
+
+  <!-- ═══════════════════════════════════════════
+       PRIMARY PAGE
+       Priority: 1.0 — Highest authority
+       Changefreq: weekly — content updated regularly
+  ═══════════════════════════════════════════ -->
+
+  <url>
+    <loc>https://www.igwa.org/</loc>
+    <lastmod>2026-06-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+
+    <!-- Hero Image -->
+    <image:image>
+      <image:loc>https://www.igwa.org/assets/logo.svg</image:loc>
+      <image:title>IWGA — Empowering Women Globally to Become Unstoppable</image:title>
+      <image:caption>
+        A diverse group of professional women representing the global 
+        community of the International Women's Global Academy.
+      </image:caption>
+    </image:image>
+
+    <!-- Leader 1 -->
+    <image:image>
+      <image:loc>https://www.igwa.org/assets/images/leader-1.jpg</image:loc>
+      <image:title>Dr. Gennelle Rice-Thomas — Founder and Global Executive Officer</image:title>
+      <image:caption>
+        Dr. Gennelle Rice-Thomas, Founder and Global Executive Officer 
+        of RiceGlobalEnterprise and IWGA visionary leader.
+      </image:caption>
+    </image:image>
+
+    <!-- Leader 2 -->
+    <image:image>
+      <image:loc>https://www.igwa.org/assets/images/leader-2.jpg</image:loc>
+      <image:title>Mrs. Olubunmi Olufisayo Olashore — The Liberator, CEO Liberated Resources</image:title>
+      <image:caption>
+        Mrs. Olubunmi Olufisayo Olashore, widely known as The Liberator, 
+        CEO of Liberated Resources and IWGA Lead Strategist.
+      </image:caption>
+    </image:image>
+
+  </url>
+
+  <!-- ═══════════════════════════════════════════
+       SECTION ANCHORS
+       Priority: 0.9 — Core content sections
+       Changefreq: monthly — sections evolve slowly
+  ═══════════════════════════════════════════ -->
+
+  <url>
+    <loc>https://www.igwa.org/#about</loc>
+    <lastmod>2026-06-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.igwa.org/#mission</loc>
+    <lastmod>2026-06-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.igwa.org/#leaders</loc>
+    <lastmod>2026-06-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.igwa.org/#pillars</loc>
+    <lastmod>2026-06-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.igwa.org/#courses</loc>
+    <lastmod>2026-06-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.igwa.org/#impact</loc>
+    <lastmod>2026-06-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.igwa.org/#cta</loc>
+    <lastmod>2026-06-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+</urlset>

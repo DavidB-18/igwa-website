@@ -29,5 +29,5 @@ function toggleBio(button) {
 AOS.init({
   duration: 700,    // how long each animation takes in ms
   once: true,       // animation only happens once not every scroll
-  offset: 20        // how many px from bottom of screen before it triggers
+  offset: 80        // how many px from bottom of screen before it triggers
 });

@@ -42,15 +42,37 @@
   gap: var(--space-lg);
 }
 
+
 .nav-links a {
+  position: relative;
+  display: inline-block;
   font-size: var(--text-base);
   color: var(--color-text);
   font-weight: 500;
   transition: color 0.3s ease;
+  text-decoration: none;
 }
 
 .nav-links a:hover {
   color: var(--color-primary-dark);
+}
+
+/* The hidden horizontal line for loding animation */
+.nav-links a::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 0;
+  transform: translateX(-50%);
+  height: 2px; /* Subtle line thickness for navs */
+  border-radius: var(--radius-full);
+  background-color: var(--color-primary); /* Accent color */
+  transition: width 0.3s ease-in-out;
+}
+
+.nav-links a:hover::after {
+  width: 100%;
 }
 
  .nav-links a.nav-home-link {

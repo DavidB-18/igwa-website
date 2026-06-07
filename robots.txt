@@ -1,0 +1,201 @@
+# ==============================================================
+#  IWGA — International Women's Global Academy
+#  robots.txt — Search Engine Crawler Directives
+#  Version:      1.0
+#  Last Updated: 2026-06-07
+#  Contact:      internationalglobalwomensacademy@gmail.com
+#  Docs:         https://www.robotstxt.org/robotstxt.html
+# ==============================================================
+
+
+# ──────────────────────────────────────────────────────────────
+#  SECTION 1 — GLOBAL RULES (applies to all crawlers)
+# ──────────────────────────────────────────────────────────────
+
+User-agent: *
+
+# Allow full access to all core content
+Allow: /
+Allow: /index.html
+Allow: /css/
+Allow: /js/
+Allow: /assets/images/
+Allow: /assets/icons/
+Allow: /assets/fonts/
+Allow: /libs/
+
+# Block non-essential and development files
+Disallow: /.git/
+Disallow: /.github/
+Disallow: /.vscode/
+Disallow: /.editorconfig
+Disallow: /.gitignore
+Disallow: /README.md
+Disallow: /LICENSE
+Disallow: /node_modules/
+
+# Block temp, cache, and backup files
+Disallow: /*.log$
+Disallow: /*.tmp$
+Disallow: /*.bak$
+Disallow: /*.swp$
+Disallow: /*.swo$
+
+# Crawl delay — be respectful of server resources
+Crawl-delay: 10
+
+
+# ──────────────────────────────────────────────────────────────
+#  SECTION 2 — GOOGLE (Googlebot)
+#  Full access — highest priority crawler
+# ──────────────────────────────────────────────────────────────
+
+User-agent: Googlebot
+Allow: /
+Allow: /assets/images/
+Allow: /assets/icons/
+Disallow: /.git/
+Disallow: /node_modules/
+Crawl-delay: 5
+
+
+# ──────────────────────────────────────────────────────────────
+#  SECTION 3 — GOOGLE IMAGE BOT
+#  Allow full image indexing for rich search results
+# ──────────────────────────────────────────────────────────────
+
+User-agent: Googlebot-Image
+Allow: /assets/images/
+Allow: /assets/icons/
+
+
+# ──────────────────────────────────────────────────────────────
+#  SECTION 4 — BING (Bingbot)
+#  Full access — second largest search engine
+# ──────────────────────────────────────────────────────────────
+
+User-agent: Bingbot
+Allow: /
+Allow: /assets/images/
+Disallow: /.git/
+Disallow: /node_modules/
+Crawl-delay: 10
+
+
+# ──────────────────────────────────────────────────────────────
+#  SECTION 5 — YAHOO (Slurp)
+# ──────────────────────────────────────────────────────────────
+
+User-agent: Slurp
+Allow: /
+Disallow: /.git/
+Disallow: /node_modules/
+Crawl-delay: 10
+
+
+# ──────────────────────────────────────────────────────────────
+#  SECTION 6 — DUCKDUCKGO
+# ──────────────────────────────────────────────────────────────
+
+User-agent: DuckDuckBot
+Allow: /
+Disallow: /.git/
+Disallow: /node_modules/
+Crawl-delay: 10
+
+
+# ──────────────────────────────────────────────────────────────
+#  SECTION 7 — APPLE (Applebot)
+#  Powers Siri and Spotlight search suggestions
+# ──────────────────────────────────────────────────────────────
+
+User-agent: Applebot
+Allow: /
+Disallow: /.git/
+Disallow: /node_modules/
+Crawl-delay: 10
+
+
+# ──────────────────────────────────────────────────────────────
+#  SECTION 8 — SOCIAL MEDIA CRAWLERS
+#  Allow full access so link previews render correctly
+#  on WhatsApp, Facebook, Twitter/X, LinkedIn
+# ──────────────────────────────────────────────────────────────
+
+User-agent: facebookexternalhit
+Allow: /
+Allow: /assets/images/
+
+User-agent: Twitterbot
+Allow: /
+Allow: /assets/images/
+
+User-agent: LinkedInBot
+Allow: /
+Allow: /assets/images/
+
+User-agent: WhatsApp
+Allow: /
+Allow: /assets/images/
+
+
+# ──────────────────────────────────────────────────────────────
+#  SECTION 9 — AI CRAWLERS
+#  Block AI training bots from scraping site content
+# ──────────────────────────────────────────────────────────────
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: Claude-Web
+Disallow: /
+
+User-agent: Omgilibot
+Disallow: /
+
+User-agent: cohere-ai
+Disallow: /
+
+
+# ──────────────────────────────────────────────────────────────
+#  SECTION 10 — MALICIOUS AND SPAM BOTS
+#  Block known scrapers, spammers and harmful crawlers
+# ──────────────────────────────────────────────────────────────
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: BLEXBot
+Disallow: /
+
+User-agent: DataForSeoBot
+Disallow: /
+
+User-agent: PetalBot
+Disallow: /
+
+
+# ──────────────────────────────────────────────────────────────
+#  SITEMAP DECLARATION
+#  Tells all search engines exactly where to find the sitemap
+# ──────────────────────────────────────────────────────────────
+
+Sitemap: https://www.igwa.org/sitemap.xml
