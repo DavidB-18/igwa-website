@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
-  <title>Eye Icon</title>
-  <g stroke="#3C1A5B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M6 32C11 21 21 14 32 14C43 14 53 21 58 32C53 43 43 50 32 50C21 50 11 43 6 32Z"/>
-    <circle cx="32" cy="32" r="9"/>
-    <circle cx="32" cy="32" r="3.5" fill="#3C1A5B" stroke="none"/>
-  </g>
-</svg>
