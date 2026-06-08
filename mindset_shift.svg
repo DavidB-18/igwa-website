@@ -1,0 +1,9 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Mindset Shift Icon">
+  <circle cx="24" cy="24" r="22" fill="#FFF8EE" stroke="#D4AF37" stroke-width="2"/>
+  <path d="M18 31C14.8 29 13 25.8 13 22.4C13 16.7 17.7 12 23.4 12C28.2 12 32.2 15.2 33.5 19.6" stroke="#5B2C87" stroke-width="3" stroke-linecap="round"/>
+  <path d="M30 17.5H34.5V13" stroke="#D4AF37" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M30 27C31.4 27 32.5 25.9 32.5 24.5C32.5 23.1 31.4 22 30 22C28.6 22 27.5 23.1 27.5 24.5C27.5 25.9 28.6 27 30 27Z" fill="#D4AF37"/>
+  <path d="M21 21C22.4 21 23.5 19.9 23.5 18.5C23.5 17.1 22.4 16 21 16C19.6 16 18.5 17.1 18.5 18.5C18.5 19.9 19.6 21 21 21Z" fill="#5B2C87"/>
+  <path d="M21 34C25.8 34 30 31 31.7 26.8" stroke="#5B2C87" stroke-width="3" stroke-linecap="round"/>
+  <path d="M34 31.5L31.2 26.5L26.3 29.4" stroke="#D4AF37" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
