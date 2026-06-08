@@ -1,0 +1,13 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Global Community Icon">
+  <circle cx="24" cy="24" r="22" fill="#FFF8EE" stroke="#D4AF37" stroke-width="2"/>
+  <circle cx="24" cy="24" r="13" stroke="#5B2C87" stroke-width="3"/>
+  <path d="M11 24H37" stroke="#5B2C87" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M24 11C27 14.4 28.5 18.7 28.5 24C28.5 29.3 27 33.6 24 37" stroke="#5B2C87" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M24 11C21 14.4 19.5 18.7 19.5 24C19.5 29.3 21 33.6 24 37" stroke="#5B2C87" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M14.5 16.5C17.1 18 20.3 18.8 24 18.8C27.7 18.8 30.9 18 33.5 16.5" stroke="#D4AF37" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M14.5 31.5C17.1 30 20.3 29.2 24 29.2C27.7 29.2 30.9 30 33.5 31.5" stroke="#D4AF37" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="12.5" cy="12.5" r="3" fill="#D4AF37"/>
+  <circle cx="35.5" cy="12.5" r="3" fill="#D4AF37"/>
+  <circle cx="12.5" cy="35.5" r="3" fill="#D4AF37"/>
+  <circle cx="35.5" cy="35.5" r="3" fill="#D4AF37"/>
+</svg>

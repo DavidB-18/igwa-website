@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+  <title>Legacy and Generational Wealth</title>
+  <g stroke="#D4AF37" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M32 14c-7 0-13 5.4-13 12 0 4.3 2.3 8 6 10.1 1.4.8 2.4 2.2 2.8 3.7L29 45"/>
+    <path d="M32 14c7 0 13 5.4 13 12 0 4.3-2.3 8-6 10.1-1.4.8-2.4 2.2-2.8 3.7L35 45"/>
+    <path d="M32 18v32"/>
+    <path d="M32 50l-6 6"/>
+    <path d="M32 50l6 6"/>
+    <path d="M32 36c-4-1-6-4-7-7"/>
+    <path d="M32 31c4-1 6-4 7-7"/>
+  </g>
+  <circle cx="22" cy="24" r="3" fill="#D4AF37"/>
+  <circle cx="42" cy="24" r="3" fill="#D4AF37"/>
+  <circle cx="32" cy="20" r="3" fill="#D4AF37"/>
+</svg>
