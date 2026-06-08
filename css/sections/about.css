@@ -92,6 +92,27 @@
   line-height: 1.6;
 }
 
+/* Tablet */
+
+@media (max-width: 1024px) {
+  .about-container {
+    flex-direction: column;
+  }
+
+  .about-content {
+    max-width: 100%;
+  }
+
+  .about-cards {
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .about-title {
+    font-size: var(--text-2xl);
+  }
+}
+
 /* Mobile */
 @media (max-width: 768px) {
 

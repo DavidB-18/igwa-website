@@ -171,3 +171,9 @@
   }
 
 }
+
+@media (max-width: 1024px) {
+  .hero-purple-dot{
+    display: none;
+  }
+}

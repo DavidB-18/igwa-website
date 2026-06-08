@@ -198,4 +198,4 @@ Disallow: /
 #  Tells all search engines exactly where to find the sitemap
 # ──────────────────────────────────────────────────────────────
 
-Sitemap: https://www.igwa.org/sitemap.xml
+Sitemap: https://www.internationalwomensglobalacademy.com/sitemap.xml
